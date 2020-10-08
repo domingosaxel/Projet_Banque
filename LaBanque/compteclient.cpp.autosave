@@ -1,0 +1,33 @@
+#include "compteclient.h"
+
+CompteClient::CompteClient()
+{
+    
+}
+
+CompteClient::CompteClient(const char *_nom, int _numero):
+    nom(_nom),
+    numero(_numero)
+{
+    //cout << "Constructeur de la classe CompteClient" << endl ;
+}
+
+CompteClient::~CompteClient()
+{
+    //cout << "Destructeur de la classe CompteClient" << endl ;
+}
+
+void CompteClient::OuvrirCompteEpargne()
+{
+    
+}
+
+void CompteClient::GererCompteBancaire()
+{
+    
+}
+
+void CompteClient::GererCompteEpargne()
+{
+    
+}
